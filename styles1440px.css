@@ -1,0 +1,185 @@
+@media screen and (min-width: 1440px)  {
+
+
+    .head div{
+        height: 50vh;
+    }
+
+    .comet{
+        top: 40%;
+        transform: rotate(10deg);
+    }
+
+    .long .container{
+        height: 75%;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        grid-template: 25vw auto 1fr / 18.2vw 15vw 32vw 1fr;
+        grid-template-areas: "leafs leafs leafs ."". tronc . ."". rect . .";
+     
+        display: grid;
+     }
+
+
+
+    .long .container .leafs{
+        background-image: url(img/leafs1440.png);
+        /* background-size: contain; */
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .long .container .tronc{
+        /* background-size: contain; */
+        height: 59vw;
+    }
+
+    .long .container .rect{
+        grid-area: rect;
+    
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        position: relative;
+    
+        mask-image: url(img/black.svg), url(img/BaobabMoteefe1440.svg);
+        mask-size: 100%;
+        
+    
+        -webkit-mask-image: url(img/black.svg), url(img/BaobabMoteefe1440.svg);
+        -webkit-mask-size: 100%;
+
+    
+    }
+
+    .bulle{
+        font-size: calc(1vw + 1rem);
+    }
+
+    .long .bottom{
+        right: 5vw;
+        bottom: -4.8vw;
+    }
+
+    .long .bottom h2{
+        font-size: 17vw;
+    }
+
+    
+
+    .info{
+        height: 130vh;
+        padding: 3vw;
+    }
+
+    .info .bckg{
+        background-size: 65%;
+    }
+
+    .info .bckg h1{
+        font-size: 6vw;
+    }
+
+    .info .bckg h2{
+        font-size: 3vw;
+    }
+
+    .info .bckg h2 span{
+    
+        margin: 0 3.3vw;
+    }
+
+    .museum .galery{
+        grid-template: 20vh 30vw 25vh 35vw 10vh 12vw 12vw 12vw 12vw 15vw 20vw 40vw 10vh 10vw 10vw 10vw 20vh 40vw 20vh / 5vw 1fr 2fr 2fr 1fr 1fr 2fr 2fr 1fr 5vw;
+        grid-template-areas: ". . . . . . . . . ."
+                             ". . . bn bn bn bn . . ."
+                             ". . . . . . . . . ."
+                             ". . . ch ch ch ch ch . ."
+                             ". . . . . . . . . ."
+                             ". . bcp bcp . . . . . ."
+                             ". . bcp bcp . . bb bb bb ."
+                             ". . . . . . bb bb bb ."
+                             ". ba ba ba ba . bb bb bb ."
+                             ". ba ba ba ba . . . . ."
+                             ". . . . . . . . . ."
+                             ". . bcl bcl bcl bcl bcl bcl . ."
+                             ". . . . . . . . . ."
+                             ". . . . . . b b . ."
+                             ". . bcp2 bcp2 . . b b . ."
+                             ". . bcp2 bcp2 . . . . . ."
+                             ". . . . . . . . . ."
+                             ". . bf bf bf bf bf bf . ."
+                             ". . . . . . . . . ."
+                             ;
+    }
+    .cadre:hover::after{
+
+        width: fit-content;
+        max-width: 100vw;
+        bottom: calc(-50px - 1rem);
+
+        font-size: 1.5vw;
+    }
+    
+    .baoN{
+    
+    background-image: url(img/1440px/baon.jpg);
+}
+
+.baoN:hover::after{
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+
+.bao_couche_petit{
+   
+   background-image: url(img/1440px/bao_couche_petit.jpg);
+}
+
+.baoCharette{
+    
+    background-image: url(img/1440px/baoCharette.jpg);
+}
+
+.bao_couche_long{
+    
+    background-image: url(img/1440px/bao_couche_long.jpg);
+}
+
+.buste{
+    
+    background-image: url(img/1440px/buste.jpg);
+}
+
+.baoFemme{
+    
+    background-image: url(img/1440px/baoFemme.jpg);
+}
+
+.baobabel{
+    
+    background-image: url(img/1440px/baobabel.jpg);
+}
+
+.baobabel:hover::after{
+    right: 0; 
+      
+}
+
+.bao_couche_petit2{
+    
+    background-image: url(img/1440px/bao_couche_petit2.jpg);
+}
+
+.baoAbstrait{
+    
+    background-image: url(img/1440px/baoAbstrait.jpg);
+}
+
+
+}

@@ -1,0 +1,295 @@
+@media screen and (min-width: 768px) and (orientation: portrait) {
+
+    .comet{
+        top: 35%;
+        transform: rotate(15deg);
+    }
+
+    .bulle{
+        font-size: 1.2rem;
+    }
+
+    .b1{
+    
+        top: 15%;
+      
+        width: 90%;
+    }
+    
+    .b2{
+        
+        top: 40%;
+        
+        width: 90%;
+    }
+    
+    .b3{
+        
+        top: 55%;
+        bottom: auto;
+       
+        width: 90%;
+    }
+
+    .birds{
+        top: unset;
+        bottom: 35%;
+        left: -15%;
+        /* background-color: red; */
+    }
+
+    .marker{
+        top: unset;
+        bottom: 30%;
+    }
+    
+
+    .museum .galery{
+        grid-template: 10vh 70vh 15vh 40vh 10vh 5vh 20vh 10vh 5vh 40vh 5vh 15vh 15vh 5vh 15vh 40vh 15vh 45vh 10vh / 5vw repeat(8,1fr) 5vw;
+        grid-template-areas: ". . . . . . . . . ."
+                             ". . bn bn bn bn bn bn . ."
+                             ". . . . . . . . . ."
+                             ". . ch ch ch ch ch ch ch ."
+                             ". . . . . . . . . ."
+                             ". . . . . bcl bcl bcl bcl ."
+                             ". bcp bcp bcp . bcl bcl bcl bcl ."
+                             ". . . . . bcl bcl bcl bcl ."
+                             ". . . . . . . . . ."
+                             ". ba ba ba ba ba ba ba . ."
+                             ". . . . . . . . . ."
+                             ". . bb bb bb . . . . ."
+                             ". . bb bb bb . bcp2 bcp2 bcp2 ."
+                             ". . . . . . bcp2 bcp2 bcp2 ."
+                             ". . . . . . . . . ."
+                             ". b b b b b b . . ."
+                             ". . . . . . . . . ."
+                             ". bf bf bf bf bf bf bf bf ."
+                             ". . . . . . . . . ."
+                             ;
+    }
+
+    .cadre:hover::after{
+        
+        font-size: 1.5rem;
+        
+        bottom: calc(-50px - 1rem);
+    
+        z-index: 3;
+    }
+
+    .baoN{
+    
+        background-image: url(img/768px/baon.jpg);
+    }
+
+    .baoN:hover::after{
+       
+        position: absolute;
+        bottom: 15%;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+    
+    .bao_couche_petit{
+       
+       background-image: url(img/768px/bao_couche_petit.jpg);
+    }
+    
+    .baoCharette{
+        
+        background-image: url(img/768px/baoCharette.jpg);
+    }
+    
+    .bao_couche_long{
+        
+        background-image: url(img/768px/bao_couche_long.jpg);
+    }
+    
+    .buste{
+        
+        background-image: url(img/768px/buste.jpg);
+    }
+    
+    .baoFemme{
+        
+        background-image: url(img/768px/baoFemme.jpg);
+    }
+    
+    .baobabel{
+        
+        background-image: url(img/768px/baobabel.jpg);
+    }
+    
+    .bao_couche_petit2{
+        
+        background-image: url(img/768px/bao_couche_petit2.jpg);
+    }
+    
+    .baoAbstrait{
+        
+        background-image: url(img/768px/baoAbstrait.jpg);
+    }
+
+
+    
+    
+
+}
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+
+    .bulle{
+        font-size: 1.2rem;
+    }
+
+    .b1{
+    
+        top: 15%;
+        
+        width: 90%;
+    }
+    
+    .b2{
+        
+        top: 40%;
+      
+        width: 90%;
+    }
+    
+    .b3{
+        
+        top: 55%;
+        bottom: auto;
+      
+        width: 90%;
+    }
+
+    .birds{
+        top: unset;
+        bottom: 30%;
+        left: -15%;
+        /* background-color: red; */
+    }
+
+    .marker{
+        top: unset;
+        bottom: 25%;
+    }
+
+    .museum .galery{
+        grid-template: 20vh 30vw 25vh 35vw 10vh 12vw 12vw 12vw 12vw 15vw 20vw 40vw 10vh 10vw 10vw 10vw 20vh 40vw 20vh / 5vw 1fr 2fr 2fr 1fr 1fr 2fr 2fr 1fr 5vw;
+        grid-template-areas: ". . . . . . . . . ."
+                             ". . . bn bn bn bn . . ."
+                             ". . . . . . . . . ."
+                             ". . . ch ch ch ch ch . ."
+                             ". . . . . . . . . ."
+                             ". . bcp bcp . . . . . ."
+                             ". . bcp bcp . . bb bb bb ."
+                             ". . . . . . bb bb bb ."
+                             ". ba ba ba ba . bb bb bb ."
+                             ". ba ba ba ba . . . . ."
+                             ". . . . . . . . . ."
+                             ". . bcl bcl bcl bcl bcl bcl . ."
+                             ". . . . . . . . . ."
+                             ". . . . . . b b . ."
+                             ". . bcp2 bcp2 . . b b . ."
+                             ". . bcp2 bcp2 . . . . . ."
+                             ". . . . . . . . . ."
+                             ". . bf bf bf bf bf bf . ."
+                             ". . . . . . . . . ."
+                             ;
+    }
+    .cadre:hover::after{
+
+        width: fit-content;
+        max-width: 100vw;
+        bottom: calc(-50px - 1rem);
+
+        font-size: 1.5rem;
+    }
+    
+    .baoN{
+    
+    background-image: url(img/1440px/baon.jpg);
+}
+
+.baoN:hover::after{
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+
+.bao_couche_petit{
+   
+   background-image: url(img/1440px/bao_couche_petit.jpg);
+}
+
+.baoCharette{
+    
+    background-image: url(img/1440px/baoCharette.jpg);
+}
+
+.bao_couche_long{
+    
+    background-image: url(img/1440px/bao_couche_long.jpg);
+}
+
+.buste{
+    
+    background-image: url(img/1440px/buste.jpg);
+}
+
+.baoFemme{
+    
+    background-image: url(img/1440px/baoFemme.jpg);
+}
+
+.baobabel{
+    
+    background-image: url(img/1440px/baobabel.jpg);
+}
+
+.baobabel:hover::after{
+    right: 0; 
+      
+}
+
+.bao_couche_petit2{
+    
+    background-image: url(img/1440px/bao_couche_petit2.jpg);
+}
+
+.baoAbstrait{
+    
+    background-image: url(img/1440px/baoAbstrait.jpg);
+}
+
+.bird-one {
+
+    left: 15vw;
+    top:0;
+}
+
+.bird-two {
+    
+    top: 5vw;
+    left: -5vw;
+}
+
+.bird-three {
+ 
+    top:10vw;
+    left: 22vw;
+}
+
+.bird-four {
+   
+    top:18vw;
+    left: -12vw;
+}
+
+}
+
+
